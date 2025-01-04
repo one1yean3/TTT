@@ -10,6 +10,11 @@ func (wr WebhookService) WebhookService() error {
 	if err != nil {
 		return err
 	}
+
+	fmt.Println("TEST")
+	fmt.Println("TEST")
+	fmt.Println("TEST")
+	fmt.Println("TEST")
 	fmt.Println("data = ", data)
 	return nil
 }
