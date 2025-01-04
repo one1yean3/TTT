@@ -11,6 +11,5 @@ func (wr WebhookService) WebhookService() error {
 		return err
 	}
 	fmt.Println("data = ", data)
-	fmt.Println("data = ", data)
 	return nil
 }
